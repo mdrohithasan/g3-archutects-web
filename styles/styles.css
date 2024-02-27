@@ -1,6 +1,69 @@
 /* work sance font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+/* shared style  */
 * {
-      font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* header style  */
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+.nav-tittle {
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: rgb(19, 19, 19);
+}
+/* banner style  */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-tittle {
+    font-weight: 700;
+    font-size: 4rem;
+    color: rgb(19, 19, 19);
+}
+
+.banner-discription {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(114, 114, 114);
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.4rem;
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
 }

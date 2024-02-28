@@ -1,5 +1,6 @@
 /* work sance font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* shared style  */
 * {
     font-family: "Work Sans", sans-serif;
@@ -38,8 +39,9 @@ nav li a {
     font-size: 2.8rem;
     color: rgb(19, 19, 19);
 }
+
 /* banner style  */
-.banner-content{
+.banner-content {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
@@ -67,26 +69,73 @@ nav li a {
     background: rgb(255, 144, 14);
     cursor: pointer;
 }
-.banner-img{
-   width: 100%;
-   margin-top: 70px;
+
+.banner-img {
+    width: 100%;
+    margin-top: 70px;
 }
+
+/* main  */
+/* features section  */
+.quick {
+    font-weight: 500;
+    font-size: 2.8rem;
+    color: rgb(114, 114, 114);
+}
+
+.our {
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: rgb(19, 19, 19);
+}
+
+.features {
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: rgb(255, 144, 14);
+}
+
+.features-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.features-box {
+    padding: 4rem;
+}
+
 /* responsive style  */
 /* mobile devices */
 @media screen and (max-width: 576px) {
-    header{
+    header {
         padding: 20px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
     }
 }
+
 /* tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    header{
+    header {
         padding: 50px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
     }
 }

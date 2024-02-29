@@ -76,10 +76,11 @@ nav li a {
 }
 
 /* main  */
-main{
-  max-width: 1440px; 
-  margin: 70px auto; 
+main {
+    max-width: 1440px;
+    margin: 70px auto;
 }
+
 /* features section  */
 .quick {
     font-weight: 500;
@@ -114,12 +115,77 @@ main{
 .section-1 {
     display: flex;
     align-items: center;
-
 }
 
 .features-box {
     padding: 4rem;
 }
+
+/* section-2 styles  */
+.enjoy-tittle-1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: rgb(19, 19, 19);
+}
+
+.enjoy-tittle {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(19, 19, 19);
+}
+
+.enjoy-description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(114, 114, 114);
+}
+
+/* section facts style */
+.facts-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.card {
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.card img {
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.card .enjoy-tittle-1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card .injoy-description {
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+/* sonser style  */
+.sponser .enjoy-tittle-1 {
+    margin-top: 180px;
+    margin-bottom: 25px;
+}
+
+.sponser {
+    text-align: center;
+}
+
+.sponser-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
 
 /* responsive style  */
 /* mobile devices */
@@ -128,16 +194,30 @@ main{
         padding: 20px;
     }
 
-    nav,  .section-1 {
+    nav,
+    .section-1 {
         flex-direction: column;
     }
-    .image{
+
+    .image {
         grid-template-columns: 1fr;
     }
+
     .features-box {
         padding: 1.2rem;
     }
-        
+
+    .facts-card-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sponser-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
 }
 
 /* tablet or medium devices */
@@ -146,7 +226,8 @@ main{
         padding: 50px;
     }
 
-    nav, .section-1 {
+    nav,
+    .section-1 {
         flex-direction: column;
     }
 }

@@ -186,6 +186,66 @@ main {
     margin-top: 65px;
 }
 
+/* section-2 styles  */
+.section-2 .enjoy-tittle-1 {
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 20px;
+
+}
+
+.section-2 {
+    display: flex;
+    gap: 145px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.features-card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    padding: 45px 42px;
+    width: 342px;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    right: 100px;
+}
+
+.ten-years-badge h2 {
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.ten-years-badge p {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+}
+
+.footer {
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: (66, 66, 66);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 /* responsive style  */
 /* mobile devices */
@@ -195,7 +255,8 @@ main {
     }
 
     nav,
-    .section-1 {
+    .section-1,
+    .section-2 {
         flex-direction: column;
     }
 
@@ -218,6 +279,16 @@ main {
         gap: 20px;
     }
 
+    .features-image img {
+        width: 100%;
+    }
+
+    .ten-years-badge {
+        position: static;
+        width: 300px;
+    }
+
+
 }
 
 /* tablet or medium devices */
@@ -227,6 +298,7 @@ main {
     }
 
     nav,
+    .section-2,
     .section-1 {
         flex-direction: column;
     }
